@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+	<img src="Images/Living2.jpg" style="width= 100vw" alt="">
+	
+	<a href="index.html"><button class ="btn2">Click Me </button></a>
+	<a href="View.html"><button class ="btn">Click Me </button></a>
+	</div>
+
+<div class="tv">
+  <a href="https://www.youtube.com/watch?v=z4D8HA_J4ZI" target="_blank">
+         <img class="TV" src="Images/newTV.png" alt="" onMouseOver="src=' Images/oldTV.png'"
+onMouseOut="src='Images/newTV.png'" />
+
+    </a>
+	</div>
+
+<div class="music">
+	
+<script>
+ function play(){
+    var audio = document.getElementById("audio");
+    audio.play();
+    }
+function stop(){
+	var audio = document.getElementById("audio");
+	audio.pause();
+	}
+</script>
+
+<img src="Images/Radio.png" alt="" value="PLAY"  onclick="play()" onDblClick="stop()">
+<audio id="audio" src="Audio/music.mp3" ></audio>
+
+	</div>
+</body>
+</html>
