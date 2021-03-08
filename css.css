@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.container {
+	position: absolute;
+	  width: 100%;
+  max-width: 100%;
+}
+
+body{
+	overflow:hidden; 
+	margin:0; 
+	text-align:center;
+}
+
+img {
+	width: 100%;
+}
+
+.container .btn {
+	position: absolute;
+	top: 0;
+  	left: 0%;
+	width: 100px;
+	height: 1000px;
+	background: transparent;
+    border: none !important;
+    font-size:0;
+  
+}
+
+.container .btn2 {
+	position: absolute;
+	top: 0;
+  	right: 0;
+	width: 100px;
+	height: 1000px;
+	background: transparent;
+    border: none !important;
+    font-size:0;
+  
+}
+
+#image01 {
+	Position: absolute;
+	width: 100vw;
+	height: 100vh;
+	right: 0px;
+}
+
+
+.TV {
+	position: absolute;
+	width: 40%;
+	height: 62%;
+	left: 5%;
+	top: 21%;
+	
+}
+
+.rollover{
+	position: absolute;
+	height: 49%;
+	Top: 20%;
+	left: 44%;
+	width: 24%;
+	
+}
+
+.music {
+	position: absolute;
+	left: 4%;
+	top: 63%;
+	width: 16%;
+}
+
+.Rollover2 {
+	position: absolute;
+	left: 36%;
+	top: 42%;
+	width: 44%;
+}
+
+	
